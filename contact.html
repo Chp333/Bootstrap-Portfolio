@@ -1,1 +1,104 @@
+<!doctype html>
+<html lang="en-us">
 
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Charles Guirola-Ribeiro</a>
+      <nav>
+        <!--Adding the bootstrap Nav Bar-->
+        <ul class="nav nav-tabs">
+          <li role="presentation" class="active">
+            <a href="index.html">About</a>
+          </li>
+          <li role="presentation">
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li role="presentation">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <!--Add this as a row that takes up 12 columns -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Contact</h1>
+        </div>
+      </div>
+
+      <form id="contact-form">
+        <ul>
+          <div class="row">
+            <div class="col-xs-12">
+              <li>
+                <label for="name">Name</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+            </div>
+          </div>
+          </li>
+          <div class="row">
+            <div class="col-xs-12">
+              <li>
+                <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+            </div>
+          </div>
+          </li>
+          <div class="row">
+            <div class="col-xs-12">
+              <li>
+                <label for="message">Message</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12">
+              <textarea id="message" name="message" required="required"></textarea>
+            </div>
+          </div>
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col-xs-12">
+            <input type="submit">
+          </div>
+        </div>
+      </form>
+
+     
+
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy;
+    </div>
+  </footer>
+</body>
+
+</html>
